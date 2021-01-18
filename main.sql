@@ -1,0 +1,3 @@
+SELECT id, name, stock FROM products
+WHERE stock <=2 and producent = 'CompanyA'
+ORDER BY id;
